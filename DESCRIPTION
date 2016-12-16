@@ -1,0 +1,13 @@
+Package: Rstdev
+Title: Calculates standard deviation and standard error of a list
+Version: 1.0.0.9000
+Authors@R: person("Pratheek", "Devaraj", email = "pratheekdevaraj@gmail.com", role = c("aut", "cre"))
+  person("James", "Henry", email = "james.gareth.henry@gmail.com", role = c("aut", "cre"))
+Description: Standard deviation is a measure that is used to quantify the amount of variation in the data set. In this library, the function standard_deviation() takes in a list or vector of values and calcualtes the standard deviation. This also calculates the standard error.
+Depends:
+    R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: testthat
