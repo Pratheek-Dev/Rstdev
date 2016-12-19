@@ -1,9 +1,9 @@
 
-
-
 context("standard deviation")
 
-test_that("calcualtes standard deviation of list or vector", {
+# Run a set of tests on the standard deviation function, to check that it works as expected
+
+test_that("calculates standard deviation of list or vector", {
 
 
   expect_equal(standard_deviation(1),0)
@@ -14,7 +14,3 @@ test_that("calcualtes standard deviation of list or vector", {
 
 
 })
-
-
-
-
